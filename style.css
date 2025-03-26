@@ -232,8 +232,30 @@ body {
     color: var(--text-light);
     font-weight: bold;
     cursor: pointer;
-    transition: transform 0.3s;
+    transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 15px rgba(113, 187, 178, 0.2);
 }
+
+.cta-button:hover {
+    transform: translateY(-2px);
+    background: var(--primary-medium);
+    box-shadow: 0 6px 20px rgba(113, 187, 178, 0.4);
+}
+
+.cta-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 10px rgba(113, 187, 178, 0.2);
+}
+element.style {
+}
+￼style.css:678
+.hero-text .cta-button {
+    animation: 
+￼fadeIn 1s 
+ease-out 0.6s backwards;
+}
+￼style.css:227
+.cta-button
 
 .cta-button:hover {
     transform: translateY(-2px);
