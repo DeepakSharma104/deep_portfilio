@@ -199,6 +199,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+      background-size: contain;
 }
 
 .hero-image img {
@@ -209,6 +210,7 @@ body {
     box-shadow: 0 0 30px rgba(113, 187, 178, 0.2);
     transition: transform 0.3s ease;
     border: 3px solid var(--primary-light);
+      background-size: contain;
 }
 
 .hero-image::after {
