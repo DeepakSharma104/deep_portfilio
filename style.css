@@ -236,6 +236,7 @@ body {
     cursor: pointer;
     transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
     box-shadow: 0 4px 15px rgba(113, 187, 178, 0.2);
+     text-decoration: none;
 }
 
 .cta-button:hover {
